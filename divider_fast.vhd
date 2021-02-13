@@ -1,7 +1,7 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
--- divides the 300mhz clock into 7.5 mhz
+-- divides the 150 MHz clock into 7.5 MHz
 entity divider_fast is
     Port ( CLK : in  STD_LOGIC;
            CLK2 : out  STD_LOGIC);
