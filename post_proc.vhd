@@ -42,7 +42,7 @@ end process;
 
 process (clk) is
 begin
-if CLK'event then 			 	--300 MHz
+if CLK'event then 			 	-- 300 MHz
 	if(postcnt = 13 or (postcnt = 12 and postbit = '1')) then
 		if(cnt /= T_END) then
 			cnt <= cnt + 1;

@@ -1,7 +1,7 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
--- divides the 150 MHz clock into 7.5 MHz
+-- divides the 150 MHz clock into 3.75 MHz
 entity divider_fast is
     Port ( CLK : in  STD_LOGIC;
            CLK2 : out  STD_LOGIC);
@@ -15,7 +15,7 @@ begin
 
 process (CLK, new_clk) is
 begin
-	if rising_edge(CLK) then
+	if rising_edge(CLK) then -- divide further by processing only on rising edge
 		if(counter < div_value) then
 			counter <= counter + 1;
 		else
