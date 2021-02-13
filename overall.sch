@@ -6,15 +6,12 @@
         <trait edittrait="all:0" />
     </attr>
     <netlist>
-        <signal name="XLXN_58" />
-        <signal name="XLXN_59" />
         <signal name="CLK" />
         <signal name="POST" />
         <signal name="DBG" />
         <signal name="RST" />
         <signal name="SCL" />
         <signal name="SDA" />
-        <signal name="XLXN_68" />
         <signal name="XLXN_70" />
         <signal name="XLXN_72" />
         <signal name="XLXN_73" />
@@ -123,10 +120,10 @@
         <branch name="XLXN_72">
             <wire x2="1872" y1="1424" y2="1424" x1="1824" />
             <wire x2="1936" y1="1424" y2="1424" x1="1872" />
-            <wire x2="1872" y1="1328" y2="1424" x1="1872" />
-            <wire x2="2080" y1="1328" y2="1328" x1="1872" />
-            <wire x2="2080" y1="1088" y2="1328" x1="2080" />
+            <wire x2="2080" y1="1280" y2="1280" x1="1872" />
+            <wire x2="1872" y1="1280" y2="1424" x1="1872" />
             <wire x2="2096" y1="1088" y2="1088" x1="2080" />
+            <wire x2="2080" y1="1088" y2="1280" x1="2080" />
         </branch>
         <instance x="1936" y="1456" name="XLXI_14" orien="R0">
         </instance>
@@ -136,10 +133,10 @@
             <wire x2="2096" y1="1152" y2="1152" x1="2032" />
         </branch>
         <branch name="XLXN_74">
-            <wire x2="1584" y1="976" y2="1152" x1="1584" />
+            <wire x2="2672" y1="960" y2="960" x1="1584" />
+            <wire x2="2672" y1="960" y2="1424" x1="2672" />
+            <wire x2="1584" y1="960" y2="1152" x1="1584" />
             <wire x2="1600" y1="1152" y2="1152" x1="1584" />
-            <wire x2="2672" y1="976" y2="976" x1="1584" />
-            <wire x2="2672" y1="976" y2="1424" x1="2672" />
             <wire x2="2672" y1="1424" y2="1424" x1="2320" />
         </branch>
     </sheet>
