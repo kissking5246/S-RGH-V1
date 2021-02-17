@@ -3,7 +3,7 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
---main module.
+-- main module.
 
 entity post_proc is
     Port ( POSTBIT : in  STD_LOGIC;
