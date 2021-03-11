@@ -49,3 +49,5 @@ sch2HdlBatchFile
 *.cmd
 *.symlog
 *.ipf
+*.xsl
+*.xwbt
